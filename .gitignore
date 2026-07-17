@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-eval/
+
+# Env / secrets
+.env
+*.env
+!.env.example
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+*.local
+
+# Agent runtime state
+tasks.db
+agent.db*
+*.sqlite
+
+# Logs / dumps
+*.log
+*.err
+
+# OS
+.DS_Store
+Thumbs.db
+
+.env.example
+GUIDE.md
+implementation_plan.md
+README.md
+structure.md

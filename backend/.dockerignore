@@ -1,0 +1,12 @@
+.venv
+.venv-eval
+__pycache__
+**/__pycache__
+*.log
+*.err
+tasks.db
+*.sqlite
+.env
+.pytest_cache
+.ruff_cache
+eval/results.md
